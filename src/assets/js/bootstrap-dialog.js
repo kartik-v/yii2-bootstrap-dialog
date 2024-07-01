@@ -456,7 +456,7 @@
             return this.getModal();
         },
         createModalDialog: function () {
-            return $('<div class="modal-dialog"></div>');
+            return $('<div class="modal-dialog modal-dialog-centered"></div>');
         },
         getModalDialog: function () {
             return this.$modalDialog;
